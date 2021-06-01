@@ -8,10 +8,32 @@ public class CCuenta {
     private double saldo;
 
     private double tipoInteres;
+    
+    
 
 
 
-    public CCuenta()
+    public String getCuenta() {
+		return cuenta;
+	}
+
+
+	public void setCuenta(String cuenta) {
+		this.cuenta = cuenta;
+	}
+
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+
+	public CCuenta()
 
     {
 
